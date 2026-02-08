@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ayakovenko",email = "ayakovenko@scalea.tech"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard] (>=0.128.4,<0.129.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
